@@ -1,0 +1,71 @@
+body {
+    background-image: url('kertas.jpg');
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured {
+    margin-bottom: 40px;
+}
+
+.featured h2 {
+    text-align: center;
+}
+
+.dish {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dish img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
